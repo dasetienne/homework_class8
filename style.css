@@ -1,0 +1,58 @@
+.image_sloth {
+	background-image: url("sloth.jpg");
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+	margin: 2px;
+	float: left;
+	border: 2px solid red;
+}
+
+
+@media (max-width: 979px) {
+	.image_sloth {
+		background-image: url("emu.jpg");
+		background-size: cover;
+		width: 250px;
+		height: 250px;
+		border: 2px solid green;
+	}
+
+}
+
+@media (max-width: 767px) {
+	.image_sloth {
+		background-image: url("monkey.jpg");
+		background-size: cover;
+		width: 150px;
+		height: 150px;
+		border: 2px solid blue;
+
+	}
+}
+
+@media (max-width: 480px) {
+	.image_sloth {
+		background-image: url("dog.jpg");
+		background-size: cover;
+		width: 100px;
+		height: 100px;
+		border: 1px solid black;
+	}
+}
+
+
+
+
+/*.image {
+
+	width: 300px;
+	height: 300px;
+	margin: 2px;
+	float: left;
+
+}
+
+*/
+
+
